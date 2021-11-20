@@ -3,6 +3,10 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+fetch("mimicServerCall")
+.then(() => document.getElementById('modal'.remove()))
+.catch(() => {})
+
 
 
 
